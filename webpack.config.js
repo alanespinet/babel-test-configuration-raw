@@ -3,6 +3,8 @@
     // - babel-core
     // - babel-loader@7
     // - babel-presets-es2015
+    // - react
+    // - react-dom
 
 var path = require('path');
 var webpack = require('webpack');
