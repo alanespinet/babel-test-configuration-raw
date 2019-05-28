@@ -1,9 +1,8 @@
-import { sum, greet } from './functions';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './components/Home';
 
-( function(){
-    const num1 = 10, num2 = 20, theName = 'Alan';
-
-    console.log( sum(num1, num2) );
-    console.log( greet(theName) );
-    
-} )();
+ReactDOM.render(
+    <Home />,
+    document.getElementById('root')
+);
